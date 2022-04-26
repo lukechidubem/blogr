@@ -1,3 +1,28 @@
-.blogr {
-    background-color: black;
+*{
+    box-sizing:border-box ;
+}
+
+header {
+    background-color: rgb(356, 100, 66);
+    /* color: white; */
+    /* justify-content: center;
+    align-items: center; */
+    width: 1000vw;
+    height: 40vh;
+    position: relative
+    display: flex;
+}
+.nav-container {
+    display: flex;
+
+}
+
+.dropdown-content {
+    display: none;
+}
+.header-container {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
 }
