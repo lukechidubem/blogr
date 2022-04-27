@@ -1,28 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
 *{
     box-sizing:border-box ;
 }
 
-header {
-    background-color: rgb(356, 100, 66);
-    /* color: white; */
-    /* justify-content: center;
-    align-items: center; */
-    width: 1000vw;
-    height: 40vh;
-    position: relative
-    display: flex;
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
 }
-.nav-container {
+.header-container {
+    background-color: rgb(356, 100, 66);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 300px;
+}
+.main-nav {
     display: flex;
-
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+}
+.modern {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .dropdown-content {
     display: none;
+    flex-direction: column;
+    
 }
-.header-container {
-    color: white;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
 }
+
+button {
+    border-radius: 16px;
+    padding:10px ;
+    border: 2px solid white;
+    margin: 0 8px;
+   font-size: 10px;
+   color: white;
+   background-color:  inherit;
+   cursor: pointer;
+}
+.btn-white {
+    background-color: white;
+    color: rgb(356, 100, 66) ;
+}
+
