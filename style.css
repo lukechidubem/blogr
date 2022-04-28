@@ -3,6 +3,8 @@
 
 *{
     box-sizing:border-box ;
+    margin: 0;
+    border: 0;
 }
 
 body {
@@ -25,13 +27,18 @@ body {
 }
 .modern {
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.dropbtn {
+    color: white;
 }
 
 .dropdown-content {
-    display: none;
+    display:none ;
     flex-direction: column;
+    background-color: white;
+    color: black;
     
 }
 
@@ -56,3 +63,92 @@ button {
     color: rgb(356, 100, 66) ;
 }
 
+h2 {
+    text-align: center;
+    padding: 40px 0px 3px 0px;
+}
+.body1-container {
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.editor-desktop {
+    object-fit:contain;
+    /* width: 50%; */
+    /* height: 500px; */
+    /* border: 2px solid black; */
+    bottom: 50px;
+    position: absolute;
+    left: 70%;
+    top: -10%;
+    
+    
+    
+}
+.body1-text {
+    width:50% ;
+    padding: 40px  60px;
+    
+}
+img {
+    object-fit:;
+}
+
+.body2-container {
+    background-color: rgb(61, 60, 60);
+    color: white;
+    position: relative;
+    height: 240px;
+    width: 100%;
+    margin: 60px 0px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.phones {
+    position: absolute;
+    top: -50px;
+    left: 40px;
+    
+}
+.body2-text {
+    margin-left: 50%;
+    padding-right: 10%;
+    padding-top: 50px;
+    
+}
+.body3-container {
+    border: 2px solid black;
+    display: flex;
+    position: relative;
+    height: 500px;
+    margin: 100px 0px;
+}
+.laptop-desktop {
+    position: absolute;
+    left: -200px;
+
+}
+.body3-text {
+    margin: 100px 8% 0px 50%;
+}
+footer {
+    background-color: rgb(22, 21, 21);
+    color: white;
+    border-top-right-radius: 50px;
+   
+}
+.footer-container {
+    padding: 40px 150px 40px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+}
+a {
+    /* color: white; */
+    text-decoration: none;
+}
