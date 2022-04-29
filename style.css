@@ -87,6 +87,9 @@ button {
     color: rgb(356, 100, 66) ;
 }
 
+.blogr-mobile {
+    display:none ;
+}
 h2 {
     text-align: center;
     padding: 40px 0px 3px 0px;
@@ -120,6 +123,7 @@ h2 {
 
 
 .body2-container {
+    display: flex;
     background-color: rgb(32, 26, 58);
     color: white;
     position: relative;
@@ -185,4 +189,134 @@ a {
 h2, h3, p {
     color: rgb(45, 45, 94);
     line-height: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-container, .main-nav, .body1-container, .body3-container, .footer-container, .body2-container {
+        flex-direction: column;
+        position: relative;
+        height: auto;
+        width: auto;
+    }
+
+    .blogr {
+        display: none;
+        position: absolute;
+        left: -50px;
+        top: -120px;
+    }
+    .blogr-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 40px 40px;
+        position: absolute;
+    }
+
+    .nav-container{
+        display: ;
+        flex-direction: column;
+        position: relative;
+        position: absolute;
+        color: black;
+        width: 80%;
+        height: 650px;
+        top: 100px;
+        left: 40px;  
+        background-color: white;
+        z-index: 1;
+    }
+    .nav-container button {
+        color: rgb(32, 33, 59);
+    }
+
+    .main-nav {
+        flex-direction: column;
+        margin: 30px 0px;
+        color: black;
+        /* background-color: white; */
+
+    }
+    .dropdown .dropbtn {
+        padding: 30px ;
+        color: rgb(32, 33, 59);
+    }
+
+    .dropdown-content {
+        background-color: gray;
+    }
+    path {
+        stroke: rgb(356, 100, 66);
+    }
+    .loginbtn {
+        left: 40px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        /* background-color: white; */
+       
+    }
+    .loginbtn button {
+        display: flex;
+        flex-direction: column;
+        /* padding: 15px; */
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 110px;
+        font-size: large;
+    }
+
+    .loginbtn .btn-white {
+        background-color: rgb(356, 100, 66);
+        color: white;
+        width: 120px;
+        margin-left: 90px;
+    }
+
+    .modern {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        margin: 50% 18%;
+         
+    }
+    .editor-desktop {
+        position: relative;
+        align-items: center;
+        align-content: center;
+        bottom: auto;
+        left: auto;
+        top: auto;
+    }
+
+    .body1-text, .body2-text, .body3-text {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width:100% ;
+    }
+    .laptop-desktop {
+        position: relative;
+        left: auto;
+    }
+    .body3-text {
+        margin: auto ; 
+    }
+    
+    .body2-text {
+        margin-left: auto;
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .header-container {
+        height: 700px;
+    } 
+    
+    .body2-container {
+        height: 500px;
+        width: 100%;
+        margin:140px 0px;
+    }
 }
