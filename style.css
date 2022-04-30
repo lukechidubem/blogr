@@ -200,7 +200,7 @@ h2, h3, p {
     }
 
     .blogr {
-        display: none;
+        display:none ;
         position: absolute;
         left: -50px;
         top: -120px;
@@ -212,9 +212,21 @@ h2, h3, p {
         margin: 40px 40px;
         position: absolute;
     }
-
+    .glyphicon {
+        position: absolute;
+        left: 400px;
+        top: 10px;
+        display:none ;
+        cursor: pointer;
+    }
+    .material-icons {
+        position: absolute;
+        left: 400px;
+        top: 7px;
+        cursor: pointer;
+    }
     .nav-container{
-        display: ;
+        display:none;
         flex-direction: column;
         position: relative;
         position: absolute;
@@ -282,41 +294,91 @@ h2, h3, p {
         margin: 50% 18%;
          
     }
+    h2 {
+        margin-top: 40px;
+    }
     .editor-desktop {
-        position: relative;
+        position: absolute;
         align-items: center;
         align-content: center;
         bottom: auto;
         left: auto;
-        top: auto;
+        top: 40px;
     }
 
+    .body1-text {
+        margin-top: 500px;
+    }
+
+    .phones {
+        justify-content: center;
+        align-items: center;
+        top: -150px;
+        position: ;
+        left: 70px;
+        /* border: 2px solid black;
+        width: 400px;
+        height: 350px; */
+    }
+
+    .phones-cover {
+       
+        max-width:100% ;
+        max-height: 100%; 
+        /* position: relative; */
+        object-fit: fill;
+    }
+
+    .body2-text {
+        margin: 40% 80%;
+        padding: 40px;
+        margin-left: auto;
+        padding-right: 30px;
+        padding-top: 0;
+    }
+
+    .body2-container {
+        height: 500px;
+        width: 100%;
+        margin:140px 0px;
+    }
+
+    .laptop-desktop {
+        position: absolute;
+       left: auto;
+       right: auto;
+       max-width: 100%;
+       max-height: auto;
+       object-fit: contain;
+    }
     .body1-text, .body2-text, .body3-text {
         text-align: center;
         justify-content: center;
         align-items: center;
         width:100% ;
     }
-    .laptop-desktop {
-        position: relative;
-        left: auto;
-    }
+    
     .body3-text {
-        margin: auto ; 
+        margin: 0px 20px 0px 20px;
+        margin-top: 600px; 
+        width: 90%;
     }
     
-    .body2-text {
-        margin-left: auto;
-        padding-right: 0;
-        padding-top: 0;
-    }
+    
     .header-container {
         height: 700px;
     } 
-    
-    .body2-container {
-        height: 500px;
-        width: 100%;
-        margin:140px 0px;
+    ul {
+        margin: 30px;
+        text-align: center;
+        align-items: center;
+    }
+     li {
+        line-height: 25px;
+    }
+    .footer-container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
